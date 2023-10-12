@@ -85,9 +85,11 @@ const Navbar = () => {
                 //   LogOut
                 // </button>
                 <Link
-                  onClick={closeNavbar}
+                  onClick={() => {
+                    closeNavbar();
+                    dispatchLogout();
+                  }}
                   to="/login"
-                  onClick={dispatchLogout}
                 >
                   LOGOUT
                 </Link>
