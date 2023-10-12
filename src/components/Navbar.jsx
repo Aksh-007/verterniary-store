@@ -12,8 +12,14 @@ const Navbar = () => {
   const [isNavbarVisible, setIsNavbarVisible] = useState(true);
   const [showNavbar, setShowNavbar] = useState(false);
   const { isAuthenticated } = useSelector((state) => state.root);
+  // open sidebar function
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
+  };
+
+  // close sidebar function
+  const closeNavbar = () => {
+    setShowNavbar(false);
   };
 
   useEffect(() => {
@@ -50,16 +56,24 @@ const Navbar = () => {
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <Link to="/">HOME</Link>
+              <Link onClick={closeNavbar} to="/">
+                HOME
+              </Link>
             </li>
             <li>
-              <Link to="/services">SERVICE</Link>
+              <Link onClick={closeNavbar} to="/services">
+                SERVICE
+              </Link>
             </li>
             <li>
-              <Link to="/customerdetails">CUSTOMER DETAILS</Link>
+              <Link onClick={closeNavbar} to="/customerdetails">
+                CUSTOMER DETAILS
+              </Link>
             </li>
             <li>
-              <Link to="/dashboard">DASHBOARD</Link>
+              <Link onClick={closeNavbar} to="/dashboard">
+                DASHBOARD
+              </Link>
             </li>
             <li>
               {isAuthenticated ? (
@@ -70,11 +84,17 @@ const Navbar = () => {
                 // >
                 //   LogOut
                 // </button>
-                <Link to="/login" onClick={dispatchLogout}>
+                <Link
+                  onClick={closeNavbar}
+                  to="/login"
+                  onClick={dispatchLogout}
+                >
                   LOGOUT
                 </Link>
               ) : (
-                <Link to="/login">LOGIN</Link>
+                <Link onClick={closeNavbar} to="/login">
+                  LOGIN
+                </Link>
               )}
             </li>
           </ul>

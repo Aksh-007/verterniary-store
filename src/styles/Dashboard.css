@@ -218,6 +218,10 @@
   .charts {
     grid-template-columns: 1fr;
     margin-top: 30px;
+    height: 70vh;
+  }
+  .grid-container {
+    margin-top: 100px;
   }
 }
 

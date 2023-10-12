@@ -151,7 +151,7 @@ function DashboardHome() {
           </LineChart>
         </ResponsiveContainer>
       </div>
-    </main>
+    </main> 
   );
 }
 
