@@ -1,4 +1,4 @@
-.login-section{
+.login-section {
   /* background: #c0c0c0; */
   font-family: Raleway, sans-serif;
   color: #666;
@@ -118,4 +118,18 @@
 
 .login a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .login-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-section {
+    width: 80%;
+
+    margin-top: 100px;
+  }
 }
