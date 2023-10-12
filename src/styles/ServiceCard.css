@@ -13,10 +13,7 @@
   background: #000;
   border-radius: 20px;
   overflow: hidden;
-  /* box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
   box-shadow: 20px 20px 40px #808080, -20px -20px 40px #ffffff;
-
-  /* box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
 }
 
 .service-card:before {
@@ -128,4 +125,17 @@
   transition: 0.5s;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    width: 350px;
+    height: 60vh;
+  }
+
+  .imgBx img {
+    height: 200px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+  }
 }

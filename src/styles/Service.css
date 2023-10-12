@@ -22,11 +22,14 @@
   min-height: 50vh;
   position: relative;
   padding: 3rem;
-  gap: 130px;
+  gap: 100px;
   flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
+  .card-container{
+    gap: 60px;
+  }
   .service-heading {
     margin-top: 100px;
   }
