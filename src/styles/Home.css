@@ -1,0 +1,231 @@
+/* Hero Section CSS */
+.main {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left h1 {
+  font-size: 3.6rem;
+  color: #ffffff;
+  min-height: 30vh;
+  margin-left: 170px;
+}
+.left p {
+  margin-left: 180px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+span {
+  color: #434242;
+}
+.button-section {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.check-now,
+.contact-us {
+  width: 200px;
+  height: 65px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.check-now {
+  background-color: #434242;
+  color: #ffffff;
+}
+
+.check-now:hover {
+  color: #434242;
+  border: 2px solid #434242;
+  background-color: transparent;
+}
+
+.contact-us {
+  margin-left: 40px;
+}
+
+.contact-us:hover {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.right {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+.right img {
+  width: 80%;
+  height: 70%;
+}
+
+/* About Section CSS */
+
+.about-pet {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-left {
+  width: 50%;
+}
+.about-left img {
+  margin-left: 100px;
+}
+
+.about-right {
+  width: 50%;
+  margin-left: 50px;
+}
+
+.about-right h1 {
+  font-size: 3.5rem;
+  margin-bottom: 50px;
+}
+
+.about-right h1 span {
+  color: #21d7ff;
+}
+
+.about-right p {
+  max-width: 600px;
+  font-size: 1.5rem;
+}
+
+.about-right .about-btn {
+  margin-top: 50px;
+}
+
+/* Services css */
+.service-container {
+  background-image: url(../images/about-bg.png);
+  padding: 10px 0px;
+}
+
+.service {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 100px;
+
+  /* border: 2px solid black; */
+  /* font-size: 2.3rem; */
+}
+.service-provided {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+}
+.service h1 {
+  font-size: 3.5rem;
+  margin-left: 40px;
+}
+
+.service span {
+  color: #21d7ff;
+}
+
+.service-provided-image {
+  background-color: #21d7ff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.our-service-card {
+  width: 22%;
+  height: 50vh;
+  text-align: center;
+}
+.our-service-card h2 {
+  margin-bottom: 20px;
+}
+
+.our-service-card p {
+  padding: 10px;
+}
+
+.service-explore {
+  margin-left: 40px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #434242;
+  text-decoration: none;
+}
+
+.stethoscope {
+  width: 34%;
+}
+
+.stethoscope img {
+  position: absolute;
+  height: 80%;
+  margin-top: -100px;
+}
+
+/* Gallery section css */
+.gallery-container {
+  background-color: #0dc3ff;
+  padding: 100px 0px;
+}
+.gallery {
+  width: 85%;
+  margin: auto;
+  min-height: 85vh;
+  /* border: 2px solid black; */
+}
+
+.gallery h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 200;
+  margin-left: 50px;
+}
+
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 0px;
+  align-items: center;
+}
+
+.upper-section {
+  display: flex;
+  gap: 30px;
+}
+
+.lower-section {
+  display: flex;
+  gap: 30px;
+}

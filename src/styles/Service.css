@@ -1,0 +1,27 @@
+/* Define your variables */
+
+/* section {
+  background-color: aqua;
+} */
+
+.service-heading {
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px;
+  color: #1d1d1d !important;
+}
+
+.service-heading span {
+  color: #1bbfe9;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  position: relative;
+  padding: 3rem;
+  gap: 130px;
+  flex-wrap: wrap;
+}

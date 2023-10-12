@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Pet Shower",
+    "price": 1000,
+    "imgSrc": "https://images.squarespace-cdn.com/content/v1/6026ce516eb2433e5cb6f4c5/1616453221621-ZK5VMOVO1SO9OWDE620T/Dog+Bath+.png?format=1500w",
+    "id": 1
+  },
+  {
+    "name": "Pet Nail Cutting",
+    "price": 799,
+    "imgSrc": "https://images.hindustantimes.com/img/2022/11/09/550x309/istockphoto-1320465287-612x612_1667989536016_1667989542476_1667989542476.jpg",
+    "id": 2
+  },
+  {
+    "name": "Pet Surgery",
+    "price": 10000,
+    "imgSrc": "https://flowerybranchpetcare.com/wp-content/uploads/2022/01/Surgery.png",
+    "id": 3
+  },
+  {
+    "name": "Pet Shower",
+    "price": 1000,
+    "imgSrc": "https://images.squarespace-cdn.com/content/v1/6026ce516eb2433e5cb6f4c5/1616453221621-ZK5VMOVO1SO9OWDE620T/Dog+Bath+.png?format=1500w",
+    "id": 4
+  },
+  {
+    "name": "Pet Nail Cutting",
+    "price": 799,
+    "imgSrc": "https://images.hindustantimes.com/img/2022/11/09/550x309/istockphoto-1320465287-612x612_1667989536016_1667989542476_1667989542476.jpg",
+    "id": 5
+  },
+  {
+    "name": "Pet Surgery",
+    "price": 10000,
+    "imgSrc": "https://flowerybranchpetcare.com/wp-content/uploads/2022/01/Surgery.png",
+    "id": 6
+  }
+]
