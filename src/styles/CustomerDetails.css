@@ -63,7 +63,9 @@ and also iPads specifically.
     width: 100%;
     box-shadow: none;
   }
-
+  .custom-h2{
+    margin-top: 80px;
+  }
   td,
   th {
     font-size: 1.1rem;

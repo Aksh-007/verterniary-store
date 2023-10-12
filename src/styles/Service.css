@@ -25,3 +25,9 @@
   gap: 130px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+  .service-heading {
+    margin-top: 100px;
+  }
+}
