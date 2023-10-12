@@ -1,4 +1,3 @@
-import React from "react";
 import {
   BsFillArchiveFill,
   BsFillGrid3X3GapFill,
@@ -8,7 +7,7 @@ import {
 import {
   BarChart,
   Bar,
-  Cell,
+  // Cell,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -23,44 +22,44 @@ function DashboardHome() {
   const data = [
     {
       name: "Page A",
-      uv: 4000,
-      pv: 2400,
+      Akshay: 4000,
+      Pratik: 2400,
       amt: 2400,
     },
     {
       name: "Page B",
-      uv: 3000,
-      pv: 1398,
+      Akshay: 3000,
+      Pratik: 1398,
       amt: 2210,
     },
     {
       name: "Page C",
-      uv: 2000,
-      pv: 9800,
+      Akshay: 2000,
+      Pratik: 9800,
       amt: 2290,
     },
     {
       name: "Page D",
-      uv: 2780,
-      pv: 3908,
+      Akshay: 2780,
+      Pratik: 3908,
       amt: 2000,
     },
     {
       name: "Page E",
-      uv: 1890,
-      pv: 4800,
+      Akshay: 1890,
+      Pratik: 4800,
       amt: 2181,
     },
     {
       name: "Page F",
-      uv: 2390,
-      pv: 3800,
+      Akshay: 2390,
+      Pratik: 3800,
       amt: 2500,
     },
     {
       name: "Page G",
-      uv: 3490,
-      pv: 4300,
+      Akshay: 3490,
+      Pratik: 4300,
       amt: 2100,
     },
   ];
@@ -120,8 +119,8 @@ function DashboardHome() {
             <YAxis />
             <Tooltip />
             <Legend />
-            <Bar dataKey="pv" fill="#8884d8" />
-            <Bar dataKey="uv" fill="#82ca9d" />
+            <Bar dataKey="Pratik" fill="#8884d8" />
+            <Bar dataKey="Akshay" fill="#82ca9d" />
           </BarChart>
         </ResponsiveContainer>
 
@@ -144,11 +143,11 @@ function DashboardHome() {
             <Legend />
             <Line
               type="monotone"
-              dataKey="pv"
+              dataKey="Pratik"
               stroke="#8884d8"
               activeDot={{ r: 8 }}
             />
-            <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+            <Line type="monotone" dataKey="Akshay" stroke="#82ca9d" />
           </LineChart>
         </ResponsiveContainer>
       </div>
