@@ -45,13 +45,14 @@ const Navbar = () => {
           <Link to="/customerdetails">CUSTOMER DETAILS</Link>
           <Link to="/dashboard">DASHBOARD</Link>
           {isAuthenticated ? (
-            <button
-              className="login-button"
-              type="submit"
-              onClick={dispatchLogout}
-            >
-              LogOut
-            </button>
+            // <button
+            //   className="logout-button"
+            //   type="submit"
+            //   onClick={dispatchLogout}
+            // >
+            //   LogOut
+            // </button>
+            <Link onClick={dispatchLogout}>LOGOUT</Link>
           ) : (
             <Link to="/login">LOGIN</Link>
           )}

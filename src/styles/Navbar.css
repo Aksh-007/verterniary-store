@@ -63,3 +63,20 @@ a:hover {
   top: 0;
   translate: 0;
 }
+
+.logout-button {
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background-color: #434242;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.logout-button:hover {
+  color: #434242;
+  border: 2px solid #434242;
+  background-color: transparent;
+}
