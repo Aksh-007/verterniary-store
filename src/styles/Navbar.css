@@ -22,7 +22,7 @@ nav {
   font-size: 1.2rem;
   margin-left: 80px;
 }
-.logo:hover{
+.logo:hover {
   text-decoration: none;
 }
 .logo img {
@@ -34,7 +34,7 @@ nav {
 .naviagtion-menu {
   list-style: none;
   display: flex;
-  gap: 100px; /* Adjust the gap between li elements */
+  gap: 50px; /* Adjust the gap between li elements */
   padding-right: 50px;
 }
 a {

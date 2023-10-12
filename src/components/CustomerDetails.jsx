@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import "../styles/CustomerDetails.css";
+// import data from "../data/customerDetails.json";
 const CustomerDetails = () => {
   const [empData, setEmpData] = useState([]);
 
+  // console.log(data);
+  // setEmpData(data);
   useEffect(() => {
     fetchData();
   }, []);

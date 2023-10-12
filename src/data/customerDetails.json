@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Akshay Barapatre",
+    "email": "akshaybarapatre54@gmail.com",
+    "phone": 7768940852
+  },
+  {
+    "id": 2,
+    "name": "Pratik Barapatre",
+    "email": "pratik@gmail.com",
+    "phone": 8446040852
+  },
+  {
+    "id": 3,
+    "name": "Shubham Gadre",
+    "email": "shubham@gmail.com",
+    "phone": 8930743545
+  },
+  {
+    "id": 4,
+    "name": "Shoaib Akhtar",
+    "email": "shoaib@gmail.com",
+    "phone": 445511122
+  },
+  {
+    "id": 5,
+    "name": "Rahul Bajpai",
+    "email": "Rahul@gmail.com",
+    "phone": 822208243
+  },
+  {
+    "id": 6,
+    "name": "Mahesh Chaple",
+    "email": "Mahesh@gmail.com",
+    "phone": 822206523
+  }
+]
