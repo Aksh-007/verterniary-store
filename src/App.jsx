@@ -1,4 +1,4 @@
-// import Home from "./components/Home";
+import Home from "./components/Home";
 import Dashboard from "./components/dashboard/Dashboard.jsx";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -17,7 +17,7 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/services" element={<Service />} />
         <Route path="/customerdetails" element={<CustomerDetails />} />
         <Route path="/login" element={<Login />} />

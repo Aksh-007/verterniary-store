@@ -39,7 +39,7 @@ const Home = () => {
       </div>
 
       {/* About Section */}
-      <div className="about-pet">
+      {/* <div className="about-pet">
         <div className="about-left">
           <img src={aboutLogo} alt="about-logo" />
         </div>
@@ -56,10 +56,10 @@ const Home = () => {
           </p>
           <button className="check-now about-btn">About More</button>
         </div>
-      </div>
+      </div> */}
 
       {/* Service Section */}
-      <div className="service-container">
+      {/* <div className="service-container">
         <div className="service">
           <h1>
             Our <span>Services</span>
@@ -111,10 +111,10 @@ const Home = () => {
             </Link>
           </button>
         </div>
-      </div>
+      </div> */}
 
       {/* Gallery section started */}
-      <div className="gallery-container">
+      {/* <div className="gallery-container">
         <div className="gallery">
           <h1>Our Gallery</h1>
           <div className="gallery-section">
@@ -139,8 +139,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
+
+    // <div style={{ marginTop: "100px" }}>
+    //   <h1>home</h1>
+    // </div>
   );
 };
 
