@@ -58,12 +58,12 @@ and also iPads specifically.
 }
 
 /* Media Query for Mobile Devices */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
   table {
     width: 100%;
     box-shadow: none;
   }
-  .custom-h2{
+  .custom-h2 {
     margin-top: 80px;
   }
   td,

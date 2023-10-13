@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {
   BsFillBellFill,
   BsFillEnvelopeFill,
@@ -6,11 +7,11 @@ import {
   BsJustify,
 } from "react-icons/bs";
 
-const DashboardHeader = () => {
+const DashboardHeader = ({ OpenSidebar }) => {
   return (
     <header className="header">
       <div className="menu-icon">
-        <BsJustify className="icon" />
+        <BsJustify className="icon" onClick={OpenSidebar} />
       </div>
       <div className="header-left">
         <BsSearch className="icon" />

@@ -129,6 +129,7 @@
   display: flex;
   justify-content: space-between;
   color: #000;
+  margin-top: 50px;
 }
 
 .main-cards {
@@ -204,6 +205,9 @@
 
   .sidebar-title > span {
     display: inline;
+  }
+  .main-title {
+    margin-top: 10px;
   }
 }
 /* Small <= 768px */
