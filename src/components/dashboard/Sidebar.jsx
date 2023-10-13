@@ -9,6 +9,7 @@ import {
   BsMenuButtonWideFill,
   BsFillGearFill,
 } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Sidebar({ openSidebarToggle, OpenSidebar }) {
   return (
@@ -27,39 +28,39 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
 
       <ul className="sidebar-list">
         <li className="sidebar-list-item">
-          <a href="">
+          <Link to={"/dashboard"}>
             <BsGrid1X2Fill className="icon" /> Dashboard
-          </a>
+          </Link>
         </li>
         <li className="sidebar-list-item">
-          <a href="">
+          <Link to={"/services"}>
             <BsFillArchiveFill className="icon" /> Products
-          </a>
+          </Link>
         </li>
         <li className="sidebar-list-item">
-          <a href="">
+          <Link to={"/categories"}>
             <BsFillGrid3X3GapFill className="icon" /> Categories
-          </a>
+          </Link>
         </li>
         <li className="sidebar-list-item">
-          <a href="">
+          <Link to={"/customerdetails"}>
             <BsPeopleFill className="icon" /> Customers
-          </a>
+          </Link>
         </li>
         <li className="sidebar-list-item">
-          <a href="">
+          <Link to={"/inventory"}>
             <BsListCheck className="icon" /> Inventory
-          </a>
+          </Link>
         </li>
         <li className="sidebar-list-item">
-          <a href="">
+          <Link to={"/reports"}>
             <BsMenuButtonWideFill className="icon" /> Reports
-          </a>
+          </Link>
         </li>
         <li className="sidebar-list-item">
-          <a href="">
+          <Link to={"/setting"}>
             <BsFillGearFill className="icon" /> Setting
-          </a>
+          </Link>
         </li>
       </ul>
     </aside>
