@@ -59,7 +59,7 @@ const Home = () => {
       </div>
 
       {/* Service Section */}
-      {/* <div className="service-container">
+      <div className="service-container"> 
         <div className="service">
           <h1>
             Our <span>Services</span>
@@ -111,7 +111,7 @@ const Home = () => {
             </Link>
           </button>
         </div>
-      </div> */}
+      </div>
 
       {/* Gallery section started */}
       {/* <div className="gallery-container">
