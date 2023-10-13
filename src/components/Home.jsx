@@ -110,7 +110,7 @@ const Home = () => {
               Explore More
             </Link>
           </button>
-        </div>
+        </div>  
       </div>
 
       {/* Gallery section started */}
