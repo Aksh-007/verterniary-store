@@ -39,7 +39,7 @@ const Home = () => {
       </div>
 
       {/* About Section */}
-      {/* <div className="about-pet">
+      <div className="about-pet">
         <div className="about-left">
           <img src={aboutLogo} alt="about-logo" />
         </div>
@@ -56,7 +56,7 @@ const Home = () => {
           </p>
           <button className="check-now about-btn">About More</button>
         </div>
-      </div> */}
+      </div>
 
       {/* Service Section */}
       {/* <div className="service-container">

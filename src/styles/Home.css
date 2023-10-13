@@ -293,4 +293,50 @@ span {
     height: 40vh;
     /* margin-bottom: 50px; */
   }
+
+  /* About section */
+  .about-pet {
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-left {
+    width: 80%;
+    /* border: 2px solid black; */
+  }
+
+  .about-left img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+
+  .about-right {
+    width: 100%;
+    margin: 50px 0px;
+    padding: 0px 20px;
+  }
+
+  .about-right h1 {
+    font-size: 2.5rem;
+    /* margin-bottom: 30px; */
+  }
+
+  .about-right h1 span {
+    color: #21d7ff;
+  }
+
+  .about-right p {
+    max-width: 100%;
+    font-size: 1.2rem;
+    margin: 0 20px;
+  }
+
+  .about-right .about-btn {
+    margin-top: 20px;
+    width: 30%;
+  }
 }
