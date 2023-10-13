@@ -289,8 +289,10 @@ span {
   }
 
   .right img {
-    max-width: 70%;
-    height: 40vh;
+    margin-top: 20px;
+    max-width: auto;
+    height: auto;
+    /* height: 40vh; */
     /* margin-bottom: 50px; */
   }
 
