@@ -40,3 +40,14 @@
 .contant_box_404 {
   margin-top: -50px;
 }
+
+@media (max-width: 768px) {
+  .four-text {
+    margin-top: 50px;
+  }
+
+  .four-container {
+    display: flex;
+    justify-content: center;
+  }
+}
