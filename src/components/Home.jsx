@@ -59,7 +59,7 @@ const Home = () => {
       </div>
 
       {/* Service Section */}
-      <div className="service-container"> 
+      <div className="service-container">
         <div className="service">
           <h1>
             Our <span>Services</span>
@@ -110,11 +110,11 @@ const Home = () => {
               Explore More
             </Link>
           </button>
-        </div>  
+        </div>
       </div>
 
       {/* Gallery section started */}
-      {/* <div className="gallery-container">
+      <div className="gallery-container">
         <div className="gallery">
           <h1>Our Gallery</h1>
           <div className="gallery-section">
@@ -122,7 +122,7 @@ const Home = () => {
               <div>
                 <img src={gallery1} alt="image1" />
               </div>
-              <div>
+              <div className="imagetwo">
                 <img src={gallery2} alt="image2" />
               </div>
             </div>
@@ -139,7 +139,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </section>
 
     // <div style={{ marginTop: "100px" }}>

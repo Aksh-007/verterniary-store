@@ -344,22 +344,21 @@ span {
 
   .service {
     width: auto;
-    height: auto; /* Reset the height for smaller screens */
+    height: auto; 
     margin: auto;
-    margin-top: 50px; /* Reduce the top margin */
-
+    margin-top: 50px; 
     /* border: 2px solid black; */
     /* font-size: 2.3rem; */
   }
 
   .service-provided {
-    flex-direction: column; /* Stack elements in a column on smaller screens */
+    flex-direction: column;
     padding: 20px;
   }
 
   .service h1 {
-    font-size: 2.5rem; /* Reduce font size */
-    text-align: center; /* Center-align the text */
+    font-size: 2.5rem; 
+    text-align: center; 
     margin: 20px 0;
   }
 
@@ -368,7 +367,7 @@ span {
   }
 
   .our-service-card {
-    width: auto; /* Full width on smaller screens */
+    width: auto;
     text-align: center;
     /* margin-bottom: 30px; */
     height: auto;
@@ -376,8 +375,8 @@ span {
   }
 
   .our-service-card h2 {
-    margin-bottom: 10px; /* Reduce the margin */
-  }
+    margin-bottom: 10px;
+    }
 
   .service-explore {
     margin: 20px 20px;
@@ -386,6 +385,50 @@ span {
   }
 
   .stethoscope {
-    display: none; /* Hide the stethoscope image on smaller screens */
+    display: none; 
+  }
+
+  /* Gallery section css */
+  .gallery-container {
+    background-color: #0dc3ff;
+    padding: 50px 0;
+  }
+
+  .gallery {
+    width: 90%; 
+    margin: auto;
+    min-height: auto; 
+  }
+
+  .gallery h1 {
+    font-size: 2.5rem; 
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+    margin: 20px 0; 
+  }
+
+  .gallery-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .upper-section,
+  .lower-section {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+  }
+
+  .upper-section div,
+  .lower-section div {
+    text-align: center; 
+  }
+
+  .imagetwo{
+    display: none;
   }
 }
