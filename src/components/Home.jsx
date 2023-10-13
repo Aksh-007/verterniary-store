@@ -141,10 +141,6 @@ const Home = () => {
         </div>
       </div>
     </section>
-
-    // <div style={{ marginTop: "100px" }}>
-    //   <h1>home</h1>
-    // </div>
   );
 };
 
