@@ -3,6 +3,7 @@
   background: #fff;
   font-family: "Arvo", serif;
   text-align: center;
+  margin-top: 93px;
 }
 
 .page_404 img {
@@ -42,6 +43,9 @@
 }
 
 @media (max-width: 768px) {
+  .page_404{
+    margin-top: 0px;
+  }
   .four-text {
     margin-top: 50px;
   }
